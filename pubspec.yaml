@@ -1,4 +1,4 @@
-name: firebase_notifications_handler
+name: easy_firebase_notifications_handler
 description: A comprehensive Flutter package for handling Firebase Cloud Messaging (FCM) notifications with intelligent caching, navigation, and multi-platform support (iOS, iPadOS, Android).
 version: 1.0.0
 homepage: https://github.com/GGFlutterdev/firebase_message_handler
