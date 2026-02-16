@@ -1,6 +1,6 @@
 # Guida di Migrazione
 
-Questa guida ti aiuterà a migrare dal tuo codice esistente al package `firebase_notifications_handler`.
+Questa guida ti aiuterà a migrare dal tuo codice esistente al package `easy_firebase_notifications_handler`.
 
 ## Prima e Dopo
 
@@ -34,7 +34,7 @@ await FirebaseMessagingHandler.initNotifications(authModel);
 
 ```dart
 // Importa il package
-import 'package:firebase_notifications_handler/firebase_notifications_handler.dart';
+import 'package:easy_firebase_notifications_handler/easy_firebase_notifications_handler.dart';
 
 // Inizializzazione una tantum
 await FirebaseNotificationsHandler.initialize(
@@ -59,7 +59,7 @@ await FirebaseNotificationsHandler.initNotifications();
 ```yaml
 # pubspec.yaml
 dependencies:
-  firebase_notifications_handler: ^1.0.0
+  easy_firebase_notifications_handler: ^1.0.0
   firebase_core: ^2.24.0
   overlay_support: ^2.1.0
 ```
@@ -77,7 +77,7 @@ import 'package:teamup_esports_package/teamup_esports_utils_package.dart';
 
 **Dopo:**
 ```dart
-import 'package:firebase_notifications_handler/firebase_notifications_handler.dart';
+import 'package:easy_firebase_notifications_handler/easy_firebase_notifications_handler.dart';
 ```
 
 ### 4. Wrap l'app con OverlaySupport
@@ -104,7 +104,7 @@ class MyApp extends StatelessWidget {
 **Crea un file:** `lib/config/notification_config.dart`
 
 ```dart
-import 'package:firebase_notifications_handler/firebase_notifications_handler.dart';
+import 'package:easy_firebase_notifications_handler/easy_firebase_notifications_handler.dart';
 import 'package:teamup_esports_package/teamup_esports_models_package.dart';
 import 'package:teamup_esports_package/teamup_esports_utils_package.dart';
 

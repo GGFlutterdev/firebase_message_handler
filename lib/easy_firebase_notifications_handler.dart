@@ -1,7 +1,7 @@
-library firebase_notifications_handler;
+library easy_firebase_notifications_handler;
 
 // Core
-export 'src/core/firebase_notifications_handler.dart';
+export 'src/core/easy_firebase_notifications_handler.dart';
 
 // Models
 export 'src/models/notification_config.dart';

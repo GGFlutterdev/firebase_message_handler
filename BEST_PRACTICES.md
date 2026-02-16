@@ -1,6 +1,6 @@
 # Best Practices
 
-Questa guida raccoglie le migliori pratiche per utilizzare il package `firebase_notifications_handler` in modo efficiente e sicuro.
+Questa guida raccoglie le migliori pratiche per utilizzare il package `easy_firebase_notifications_handler` in modo efficiente e sicuro.
 
 ## 🏗️ Architettura
 

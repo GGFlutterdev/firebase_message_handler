@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.0.0] - 2024-02-12
+## [1.0.0] - 2026-02-12
 
 ### Added
 - Initial release
@@ -43,3 +43,7 @@ All notable changes to this project will be documented in this file.
 - firebase_core: ^2.24.0
 - overlay_support: ^2.1.0
 - shared_preferences: ^2.2.2
+
+## [1.0.1] - 2026-02-16
+
+Fix naming

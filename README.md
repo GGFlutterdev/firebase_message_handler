@@ -2,7 +2,7 @@
 
 A comprehensive, production-ready Flutter engine for managing **Firebase Cloud Messaging (FCM)**. Designed for enterprise applications, it features seamless multi-platform support (iOS, iPadOS, Android), intelligent caching, declarative navigation routing, and highly customizable foreground overlays.
 
-[![Pub](https://img.shields.io/pub/v/firebase_notifications_handler.svg)](https://pub.dev/packages/firebase_notifications_handler)
+[![Pub](https://img.shields.io/pub/v/easy_firebase_notifications_handler.svg)](https://pub.dev/packages/easy_firebase_notifications_handler)
 [![Platform](https://img.shields.io/badge/Platform-iOS%20%7C%20iPadOS%20%7C%20Android-blue)]()
 [![Flutter](https://img.shields.io/badge/Flutter-%3E%3D3.0.0-blue)]()
 [![License](https://img.shields.io/badge/License-MIT-green)]()
@@ -55,7 +55,7 @@ Add the following to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  firebase_notifications_handler: ^1.0.0
+  easy_firebase_notifications_handler: ^1.0.0
   firebase_core: ^any
   overlay_support: ^any
 ```
@@ -96,7 +96,7 @@ apply plugin: 'com.google.gms.google-services'
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:overlay_support/overlay_support.dart';
-import 'package:firebase_notifications_handler/firebase_notifications_handler.dart';
+import 'package:easy_firebase_notifications_handler/easy_firebase_notifications_handler.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -121,7 +121,7 @@ class MyApp extends StatelessWidget {
 ### 2.Configure the Handler
 
 ```dart
-import 'package:firebase_notifications_handler/firebase_notifications_handler.dart';
+import 'package:easy_firebase_notifications_handler/easy_firebase_notifications_handler.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -289,7 +289,7 @@ For optimal compatibility with the automated routing system, use this JSON struc
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:overlay_support/overlay_support.dart';
-import 'package:firebase_notifications_handler/firebase_notifications_handler.dart';
+import 'package:easy_firebase_notifications_handler/easy_firebase_notifications_handler.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
